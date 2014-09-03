@@ -783,6 +783,10 @@ body.outlook p {
       padding-top: 25px;
       padding-bottom: 25px;
     }
+    #pare-pad {}
+    table.button td a {
+      box-sizing: border-box;
+    }
   </style>
 
 </head>
@@ -804,7 +808,7 @@ body.outlook p {
                           <td class="wrapper last" align="center"><!-- align center for td's required for numerous email clients to center image properly -->
                             <table class="twelve columns">
                               <tr>
-                                <td class="center" align="center">
+                                <td class="center" align="center" bgcolor="#000">
                                   <center>
                                     <img class="center" width="" height="" src="" alt="" />
                                   </center>
@@ -820,7 +824,7 @@ body.outlook p {
                           <td class="wrapper">
                             <table class="six columns">
                               <tr>
-                                <td class="center" align="center">
+                                <td class="center" align="center" bgcolor="#ccc">
                                   <center>
                                     <img class="center" width="" height="" src="" alt="" />
                                   </center>
@@ -832,7 +836,7 @@ body.outlook p {
                           <td class="wrapper last">
                             <table class="six columns">
                               <tr>
-                                <td class="center" align="center">
+                                <td class="center" align="center" bgcolor="#bbb">
                                   <center>
                                     <img class="center" width="" height="" src="" alt="" />
                                   </center>
@@ -855,9 +859,9 @@ body.outlook p {
 
                       <table class="eight columns">
                         <tr>
-                          <td class="eight sub-columns">
+                          <td class="eight sub-columns" bgcolor="red">
                           </td>
-                          <td class="four sub-columns last">
+                          <td class="four sub-columns last" bgcolor="green">
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -865,7 +869,7 @@ body.outlook p {
 
                     </td>
                     <td class="wrapper last">
-                      <table class="four columns">
+                      <table class="four columns" bgcolor="blue">
                         <tr>
                           <td>
                           </td>
@@ -876,12 +880,43 @@ body.outlook p {
                   </tr>
                 </table>
 
-                <table class="row"><!-- .text-pad use --> 
+                <!-- Image Text news with Retina -->
+
+                <table class="row">
+                  <tr>
+                    <td class="wrapper">
+
+                      <table class="three columns">
+                        <tr>
+                          <td>
+                            <img width="120" height="120" src="img/retina600x600.gif"/>
+                          </td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+
+                    </td>
+                    <td class="wrapper last">
+                      <table class="nine columns">
+                        <tr>
+                          <td>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ullamcorper massa vitae molestie porttitor. Cras quis ipsum a orci ullamcorper sollicitudin ut id nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent aliquet nisi ut dui accumsan, ut posuere.</p>
+                          </td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- .text-pad use --> 
+                <table class="row">
                   <tr>
                     <td class="wrapper last">
                       <table class="twelve columns">
                         <tr>
                           <td class="text-pad">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit magna non justo sollicitudin tincidunt. Sed dolor dolor, cursus a lorem ut, vulputate dictum odio. Praesent placerat dolor sed vehicula venenatis. Aliquam rhoncus lacus neque, ut vestibulum nulla vestibulum eu. Etiam imperdiet ipsum ut nulla vehicula, eget maximus ligula maximus. Fusce fringilla.</p>
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -895,8 +930,7 @@ body.outlook p {
                     <td class="wrapper last">
                       <table class="twelve columns">
                         <tr>
-                          <td class="panel">
-                          </td>
+                          <td class="panel">The panel class adds a default border and bg color.  May be useful for some content.</td>
                           <td class="expander"></td>
                         </tr>
                       </table>
